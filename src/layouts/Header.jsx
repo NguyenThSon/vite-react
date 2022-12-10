@@ -57,13 +57,14 @@ export default function Header() {
                             <a className="active" href="./">Trang chủ</a>
                         </li>
                         <li>
-                            <a href="./team.html">Spacedev Team</a>
+                        <Link to="/team" onClick={toggelMenu} >Space Team</Link>
+
                         </li>
                         <li>
                             <Link to="/course" onClick={toggelMenu} >Khóa Học</Link>
                         </li>
                         <li>
-                            <a href="./project.html">Dự Án</a>
+                            <Link to="/project" onClick={toggelMenu} >Dự Án</Link>
                         </li>
                         <li>
                             <Link  to="/contact" onClick={toggelMenu}  >Liên hệ</Link>

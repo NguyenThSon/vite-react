@@ -1,0 +1,12 @@
+.contact__label {
+    position: relative;
+}
+
+.span {
+    position: absolute;
+    color: red;
+    left: 230px;
+    top: 100%;
+    font-style: italic;
+    font-size: 13px;
+}
